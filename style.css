@@ -1,0 +1,125 @@
+
+
+body{
+    background-color: bisque;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-color: black;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+     
+}
+
+.brand-name{
+    padding: 0 8px;
+    font-size: 29px;
+    font-weight: bolder;
+    padding-left: 2px;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 9px;
+    color: grey;
+   
+}
+
+.container{
+    min-height: 75vh;
+    background-color: black;
+    display: flex;
+    margin: 10px auto;
+    width: 70%;
+    border-radius: 10px;
+    background-image: url('music-back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+
+.footer{
+    height: 90px;
+    background-color: black;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.icon{
+margin-top: 10px;
+/* fontawesome from here */
+color: pink;
+cursor: pointer;
+
+}
+
+.icon img{
+    cursor: pointer;
+}
+
+
+
+
+.songItem{
+    height: fit-content;
+    width: 100%;
+    color: white;
+    margin: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+
+
+
+.coverimg{
+    border-radius: 20px;
+}
+
+.songItem1{
+width: 40%;
+}
+
+.songItem span i{
+    cursor: pointer;
+}
+
+
+#myProgressBar{
+    width: 90vh;
+    cursor: pointer;
+    
+}
+
+
+
+
+#gif{
+    position: absolute;
+    left: 15% ;
+    top: 15%;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+
+}
+
+.songItem span i {
+   
+   color: bisque;
+   
+}
